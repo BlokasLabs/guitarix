@@ -3830,7 +3830,7 @@ typedef enum
 
 void DKPlugin::init(unsigned int samplingFreq, PluginLV2 *plugin) {
     DKPlugin& self = *static_cast<DKPlugin*>(plugin);
-    self.smp.setup(samplingFreq, 96000);
+    self.smp.setup(samplingFreq, samplingFreq);
     self.X.setZero();
    self.Y.setZero();
    unsigned int fs = samplingFreq;
