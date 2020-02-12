@@ -23,4 +23,4 @@
 <http://guitarix.sourceforge.net/plugins/gx_mole_#_mole_>
     a lv2:Plugin ;
     lv2:binary <gx_mole@LIB_EXT@>  ;
-    rdfs:seeAlso <gx_mole.ttl> .
+    rdfs:seeAlso <gx_mole.ttl> , <modgui.ttl>.
